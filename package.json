@@ -6,9 +6,17 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test-production": "newman run tests/Trello_Collection.postman_collection.json"
+    "api-tests-production": "newman run tests/TrelloCollection.postman_collection.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bladimirVRS/postman-newman-jenkins.git"
   },
   "author": "Bladimir",
+  "bugs": {
+    "url": "https://github.com/bladimirVRS/postman-newman-jenkins/issues"
+  },
+  "homepage": "https://github.com/bladimirVRS/postman-newman-jenkins#readme",
   "dependencies": {
     "newman": "^3.9.3"
   }
