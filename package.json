@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run postman-newman-jenkins/tests/TrelloCollection.postman_collection.json"
+    "api-tests-production": "newman run TrelloCollection.postman_collection.json"
   },
   "repository": {
     "type": "git",
